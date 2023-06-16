@@ -6,11 +6,6 @@ function palindrome(str){
         // str = str.replace(" " , "");
         str = str.replace(/ |'|,|;|:/gi, "");
         // console.log(str);
-//         str = str.replace("'" , "");
-//         str = str.replace("." , "");
-// 		str = str.replace("?" , "");
-// 		str = str.replace(";" , "");
-// 		str = str.replace(":" , "");
         let l = str.length;
         let i = 0; 
         let j = (l-1);
